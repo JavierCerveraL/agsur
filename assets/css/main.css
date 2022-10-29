@@ -11,7 +11,7 @@
 
 :root{
     
-    --color-body: #FFFDFA;
+    --color-body: #ffffff;
     --color-heading: #000205;
     --color-base: #626060;
     --color-base2: #303030;
@@ -57,5 +57,6 @@ img{
 
 .carousel-item{
     width: 100%;
-    max-height: 800px;
+    max-height: 500px;
 }
+

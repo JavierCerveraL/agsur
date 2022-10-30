@@ -66,6 +66,7 @@ header{
     background-size: cover ;
     height: 85vh;
     position: relative;
+    z-index: 1;
     
 }
 
@@ -75,8 +76,8 @@ header{
     position: absolute;
     top: 50%;
     left: 20%;
-
-    
+    transform: translateY(-40%);
+    z-index: -1;
 
 }
 
@@ -98,4 +99,5 @@ header{
     font-weight: 700;
     padding-left:20px ;
     padding-right: 20px;
+    margin-top: 25px;
 }
